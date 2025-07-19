@@ -15,7 +15,7 @@ export default function Index() {
                     for cross platforms
                 </Text>
 
-                <Text style={styles.smallText}>ALX is Awesome</Text>
+                <Text style={styles.smallText}>ALis Awesome</Text>
             </View>
 
         </View>
@@ -23,37 +23,27 @@ export default function Index() {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        backgroundColor: "#90caf9",
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        padding:20,
-    },
-
-    largeText: {
-        fontSize: 30,
-        color: "#f44336",
-        marginBottom: 5,
-        fontWeight: "700",
-        fontVariant: ["stylistic-eighteen"]
-    },
-
-    mediumText: {
-        fontSize: 19,
-        color: "#9c27b0",
-        fontWeight: "600",
-        marginBottom: 10,
-        marginLeft : 50,
-        textAlign: "right"
-    },
-
-    smallText:{
-        fontSize: 15,
-        textAlign: "center",
-        color: "#2196f3",
-        fontWeight: "400",
-    },
-
-
-})
+  container: {
+    backgroundColor: "#90caf9",
+  },
+  largeText: {
+    fontSize: 30,
+    color: "#f44336",
+    marginBottom: 5,
+    fontWeight: "700",
+    fontVariant: ["small-caps"],
+  },
+  mediumText: {
+    fontSize: 20,
+    color: "#9c27b0",
+    marginBottom: 10,
+    fontWeight: "500",
+    textAlign: "right",
+  },
+  smallText: {
+    fontSize: 15,
+    color: "#2196f3",
+    fontWeight: "400",
+    textAlign: "center",
+  },
+});
